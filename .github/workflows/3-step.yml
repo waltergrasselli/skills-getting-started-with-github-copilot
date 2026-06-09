@@ -1,6 +1,7 @@
 name: Step 3
 
-on:
+on: 
+  workflow_dispatch:
   push:
     branches:
       - "accelerate-with-copilot"
